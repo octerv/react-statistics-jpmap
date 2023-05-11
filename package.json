@@ -1,0 +1,43 @@
+{
+  "name": "react-statistics-jpmap",
+  "version": "0.0.1",
+  "description": "Statistics shows on Japan map",
+  "main": "build/index.js",
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "types",
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test-aws": "MODE=aws jest",
+    "prepare": "npm run build",
+    "preview": "npx ladle serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octerv/react-statistics-jpmap"
+  },
+  "keywords": [
+    "React",
+    "Statistics",
+    "Map",
+    "Japan"
+  ],
+  "author": "Octerv",
+  "license": "MIT",
+  "homepage": "https://github.com/octerv/react-statistics-jpmap#readme",
+  "bugs": {
+    "url": "https://github.com/octerv/react-statistics-jpmap/issues"
+  },
+  "devDependencies": {
+    "@ladle/react": "^2.12.3",
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  }
+}
