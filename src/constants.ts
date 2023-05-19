@@ -1,3 +1,6 @@
+const GEO_URL =
+  "https://raw.githubusercontent.com/octerv/react-statistics-jpmap/master/mapdata/jp-prefectures.json";
+
 const PREFECTURE_DICT = {
   1: { en: "Hokkaido", jp: "北海道" },
   2: { en: "Aomori", jp: "青森県" },
@@ -48,4 +51,4 @@ const PREFECTURE_DICT = {
   47: { en: "Okinawa", jp: "沖縄県" },
 };
 
-export { PREFECTURE_DICT };
+export { GEO_URL, PREFECTURE_DICT };

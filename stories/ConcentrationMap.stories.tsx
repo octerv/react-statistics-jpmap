@@ -6,6 +6,12 @@ export default {
   component: ConcentrationMap,
 };
 
+const prefStats = {
+  10: 50,
+  26: 50000,
+  35: 10000,
+};
+
 export const Default = () => {
-  return <ConcentrationMap />;
+  return <ConcentrationMap prefStats={prefStats} />;
 };
