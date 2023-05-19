@@ -13,5 +13,8 @@ const prefStats = {
 };
 
 export const Default = () => {
-  return <ConcentrationMap prefStats={prefStats} />;
+  const onClick = (prefNum: number) => {
+    console.log(`prefNum: ${prefNum}`);
+  };
+  return <ConcentrationMap prefStats={prefStats} onClick={onClick} />;
 };
