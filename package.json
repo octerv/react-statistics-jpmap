@@ -1,6 +1,6 @@
 {
   "name": "react-statistics-jpmap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Statistics shows on Japan map",
   "main": "build/index.js",
   "files": [
